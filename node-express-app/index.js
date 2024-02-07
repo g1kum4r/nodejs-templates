@@ -7,6 +7,7 @@ server.use(express.json());
 
 // users routing
 server.use("/users", userRouter);
+
 // jobs routing
 server.use("/jobs", jobsRouter);
 
